@@ -1,4 +1,4 @@
-
+//Step 2
 function getComputerChoice(num){
     let number = Math.random(); 
     
@@ -10,8 +10,17 @@ function getComputerChoice(num){
         return("Scissors")
     }   
 }
-    //Generate a random number that will return either rock,paper, or scissors
-    // specify that <0.33, >0.33 && <0.66, >0.66
-    // Issue is that it is re-running math.random 
+
 console.log(getComputerChoice());
 
+//Step 3
+function getHumanChoice() {
+    let choice = prompt("Choose Wisely");
+    return response;
+}
+
+console.log(getHumanChoice());
+
+//returns a valid choice depending on input
+    //create button 
+    //
